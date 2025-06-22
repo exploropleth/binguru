@@ -1,6 +1,6 @@
 {
   "name": "binguru",
-  "version": "1.0.0-alpha.18.0",
+  "version": "1.0.0",
   "description": "BinGuru is a Javascript package with an API to several established data binning / data classification methods, often used for visualizing data on choropleth maps. It also includes an implementation of a new, consensus binning method, 'Resiliency'.",
   "main": "dist/index.mjs",
   "scripts": {
@@ -9,7 +9,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/arpitnarechania/binguru.git"
+    "url": "git+https://github.com/exploropleth/binguru.git"
   },
   "dependencies": {
     "nerdamer": "^1.1.13",
@@ -29,16 +29,15 @@
   "author": "Arpit Narechania, Alex Endert, Clio Andris",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/arpitnarechania/binguru/issues"
+    "url": "https://github.com/exploropleth/binguru/issues"
   },
-  "homepage": "https://github.com/arpitnarechania/binguru#readme",
+  "homepage": "https://github.com/exploropleth/binguru#readme",
   "devDependencies": {
     "rimraf": "^5.0.1",
     "rollup": "^3.25.3",
     "typescript": "^5.1.5"
   },
   "engines": {
-    "npm": ">=7.24.0",
-    "node": ">=16.10.0"
+    "node": "20.x"
   }
 }

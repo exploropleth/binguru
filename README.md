@@ -29,14 +29,17 @@ Check out this <a target="_blank" href="https://observablehq.com/@arpitnarechani
 ### Build and Publish
 - Install dependencies: `npm install`
 - Build the package: `npm run build`
-- Set version: `npm version prerelease --preid=<version>`
+- Set version: 
+  - For stable release: `npm version 1.0.0`
+  - For specific prerelease: `npm version 1.0.0-alpha.18.0`
+  - For auto-increment prerelease: `npm version prerelease --preid=alpha` (replace alpha with another preid, if any)
 - Dry run: `npm publish --dry-run`
 - Publish to the registry: `npm publish`
 
 
 ### Credits
 BinGuru was created by
-<a target="_blank" href="http://narechania.com">Arpit Narechania</a>, <a href="https://va.gatech.edu/endert/">Alex Endert</a>, and <a href="https://friendlycities.gatech.edu/">Clio Andris</a> of the <a target="_blank" href="https://vis.gatech.edu/">Georgia Tech Visualization Lab.</a> We thank the members of the <a target="_blank" href="http://vis.gatech.edu/">Georgia Tech Visualization Lab</a> for their support and constructive feedback.</p>
+<a target="_blank" href="https://narechania.com">Arpit Narechania</a>, <a href="https://va.gatech.edu/endert/">Alex Endert</a>, and <a href="https://friendlycities.gatech.edu/">Clio Andris</a> of the <a target="_blank" href="https://vis.gatech.edu/">Georgia Tech Visualization Lab.</a> We thank the members of the <a target="_blank" href="https://vis.gatech.edu/">Georgia Tech Visualization Lab</a> for their support and constructive feedback.</p>
 
 
 ### Citations
@@ -55,8 +58,8 @@ BinGuru was created by
 ```
 
 ### License
-The software is available under the [MIT License](https://github.com/arpitnarechania/binguru/blob/master/LICENSE).
+The software is available under the [MIT License](https://github.com/exploropleth/binguru/blob/master/LICENSE).
 
 
 ### Contact
-If you have any questions, feel free to [open an issue](https://github.com/arpitnarechania/binguru/issues/new/choose) or contact [Arpit Narechania](http://narechania.com).
+If you have any questions, feel free to [open an issue](https://github.com/exploropleth/binguru/issues/new/choose) or contact [Arpit Narechania](https://narechania.com).
